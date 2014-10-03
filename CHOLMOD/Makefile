@@ -14,6 +14,7 @@ include ../SuiteSparse_config/SuiteSparse_config.mk
 
 # Compile the C-callable libraries and the Demo programs.
 all:
+	( cd Lib ; $(MAKE) )
 
 # Compile the C-callable libraries only.
 library:
